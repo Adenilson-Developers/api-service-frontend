@@ -1,0 +1,42 @@
+#header-home-page {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(-45deg,#752abb,#743e8f );
+}
+
+#header-home-page .header-top-bar{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    margin: 3.2rem auto;
+}
+
+
+#header-home-page .header-top-bar strong{
+    font: 700 3.6rem Archivo;
+    line-height: 4.2rem;
+    color: var(--color-title-in-primary);
+}
+
+@media(min-width: 700px){
+    #header-home-page {
+        height: 340;
+    }
+    #header-home-page .header-top-bar {
+        max-width: 1100px;
+    }
+    #header-home-page .header-top-bar {
+        flex: 1;
+        max-width: 740px;
+        margin: 0 auto;
+        padding-bottom: 48px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+    #header-home-page .header-top-bar strong{
+        max-width: 500px;
+    }
+}
